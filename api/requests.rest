@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Complete Demo"
+}
+
+
+###
+DELETE http://localhost:3001/todo/delete/646316094620eb96c8de92e1
+
+
+###
+GET http://localhost:3001/todo/complete/64632f10fcfd2f3a3ba56cf4
+
+
